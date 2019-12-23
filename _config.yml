@@ -2,7 +2,7 @@ safe: true
 markdown: kramdown
 highlighter: pygments
 permalink: /:title.html
-relative_permalinks: false
+relative_permalinks: ture
 
 default_theme: ribbon
 default_width: 792
@@ -11,7 +11,7 @@ default_body_class: list
 
 author:
     name: Joanna Lamch
-    # url:  http://example.com/
+    url:  http://jlamch.net/iotexercises
     company:
         name: JL System 
         # url:  http://example.com/
