@@ -2,7 +2,6 @@ safe: true
 markdown: kramdown
 highlighter: pygments
 permalink: /:title.html
-relative_permalinks: ture
 
 default_theme: ribbon
 default_width: 792
@@ -16,6 +15,6 @@ author:
         name: JL System 
         # url:  http://example.com/
 
-fork_url: https://github.com/shower/shower
+fork_url: http://jlamch.net/iotexercises
 progress: true
 line_numbers: true
