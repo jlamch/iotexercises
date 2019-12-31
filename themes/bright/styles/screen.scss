@@ -75,8 +75,8 @@ a {
 	&:after {
 		position:absolute;
 		right:0;
-		bottom:45px;
-		left:0;
+		bottom:12px;
+		left:95%;
 		color:#AAA;
 		counter-increment:slide;
 		content:counter(slide);
