@@ -47,7 +47,7 @@ style: |
 1. Update firmware
     - [Firmware link](https://bit.ly/2riKrLw){:target="_blank"}
     - [Firmware updating instruction](https://bit.ly/34Pug60){:target="_blank"}
-    - Open in Windows Explorer and drop package that you just downloaded
+    - Drag and Drop downloaded packege in Windows Explorer
 2. Set WIFI connection 
     - => **Hold B, press Reset** - still holding B just press and release Reset still holding B,
     - => **release B**
@@ -68,19 +68,37 @@ style: |
     - IoT Devices -> your device -> Primary Connection String
 
 ## III: Getting started
-1. [Upload getting started program](https://aka.ms/devkit/prod/getstarted/latest){:target="_blank"}
+1. [Upload getting started program](https://aka.ms/devkit/prod/getstarted/latest){:target="_blank"}  [Solution link](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/){:target="_blank"}
 2. Configure getting started
 	- => **Hold B, press Reset** - still holding B just press and release Reset still holding B,
     - => **release B**
-	- set connection string from recent demo
+3. Connect to you DevKit access point
+4. Configure at 192.168.0.1
+    - set WIFI
+    - set connection string from recent demo        
 	- restart device
-3. Observe the magic
-	- => VS Code – IoT Hub extension
-	- => check Azure Blob storage data
 
-4. [Solution link](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/)
+## III: Getting started
+5. In VS Code call *Command Palette* and call *Azure: Sign in*
+6. In Explorer at the bottom go to *Azure IoT Hub*
+    - select *More actions...*
+    - *8*Select IoT Hub*
+7. Select Devices
+    - select your device
+    - *Start monitoring build-in endpoints*
+    - observe messages in Output window
 
-## 3. IoT Central
+## IV: Getting started - cold path
+1. Go to Azure portal
+	- go to Message routing
+	- *Add*
+    - on Add Route page *Add endpoint*, storage
+    - fill name, choose frequency, choose JSON and *pick container*
+    - create or choose storage account and container
+2. Check storage
+    - body is encripted with Base64
+
+## V: IoT Central
 
 [Strona rozwiązania](https://aka.ms/iotcentral){:target="_blank"}
 

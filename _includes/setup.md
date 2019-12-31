@@ -29,12 +29,12 @@
     {% endif %}
 
 ## Set the line numbers var
-
+<!-- 
     {% assign line_numbers = page.line_numbers | append:'' | size %}
     {% if line_numbers == 0 %}
         {% assign line_numbers = site.line_numbers %}
     {% else %}
         {% assign line_numbers = page.line_numbers %}
-    {% endif %}
+    {% endif %} -->
 
 {% endcapture %}
