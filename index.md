@@ -42,32 +42,49 @@ style: |
 ![](pictures/cover.jpg)
 
 
-## 1. IoT DevKit
+## I: IoT DevKit
 
 1. Update firmware
-2. Set WIFI connection => **Hold B, press Reset,    release B**
+    - [Firmware link](https://bit.ly/2riKrLw){:target="_blank"}
+    - [Firmware updating instruction](https://bit.ly/34Pug60){:target="_blank"}
+    - Open in Windows Explorer and drop package that you just downloaded
+2. Set WIFI connection 
+    - => **Hold B, press Reset** - still holding B just press and release Reset still holding B,
+    - => **release B**
+3. Connect to you DevKit access point
+4. Configure WIFI at 192.168.0.1        
 3. See sensors reading => Press B
 
-[Firmware link](https://bit.ly/2riKrLw)
+## II: Create IoT Hub
+1. Go to Azure Portal
+2. Create IoT Hub
+    - preferable S1 tier
+    - 1 unit
+    - 4 partitions
+3. Create device
+    - IoT Devices -> New 
+    - with symetric key
+4. Go to your device and open connection strings, we will need it later
+    - IoT Devices -> your device -> Primary Connection String
 
-[Firmware updating instruction](https://bit.ly/34Pug60)
-
-## 2. Getting started
-1. [Upload getting started program](https://azureboard.blob.core.windows.net/prod/devkit-getstarted-1.6.2-v2.bin)
+## III: Getting started
+1. [Upload getting started program](https://aka.ms/devkit/prod/getstarted/latest){:target="_blank"}
 2. Configure getting started
-	- => Hold B, press Reset,           release B
+	- => **Hold B, press Reset** - still holding B just press and release Reset still holding B,
+    - => **release B**
 	- set connection string from recent demo
 	- restart device
-
 3. Observe the magic
 	- => VS Code – IoT Hub extension
 	- => check Azure Blob storage data
 
+4. [Solution link](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/)
+
 ## 3. IoT Central
 
-[Strona rozwiązania](https://aka.ms/iotcentral)
+[Strona rozwiązania](https://aka.ms/iotcentral){:target="_blank"}
 
-[Obrazy oprogramowania dla MXChipa](https://aka.ms/iotcentral-docs-MXChip-releases)
+[Obrazy oprogramowania dla MXChipa](https://aka.ms/iotcentral-docs-MXChip-releases){:target="_blank"}
 
 1. Update settings: – Fan – Voltage 
 2. Call commands: - Echo - Countdown
