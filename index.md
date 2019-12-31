@@ -45,12 +45,10 @@ style: |
 ## I: IoT DevKit
 
 1. Update firmware
-    - [Firmware link](https://bit.ly/2riKrLw){:target="_blank"}
-    - [Firmware updating instruction](https://bit.ly/34Pug60){:target="_blank"}
+    - [Firmware link](https://bit.ly/2riKrLw){:target="_blank"}; [Firmware updating instruction](https://bit.ly/34Pug60){:target="_blank"}
     - Drag and Drop downloaded packege in Windows Explorer
 2. Set WIFI connection 
-    - => **Hold B, press Reset** - still holding B just press and release Reset still holding B,
-    - => **release B**
+    - => **Hold B, press Reset** - still holding B just press and release Reset still holding B, **release B**
 3. Connect to you DevKit access point
 4. Configure WIFI at 192.168.0.1        
 3. See sensors reading => Press B
@@ -67,7 +65,7 @@ style: |
 4. Go to your device and open connection strings, we will need it later
     - IoT Devices -> your device -> Primary Connection String
 
-## III: Getting started
+## III: Getting started (part 1)
 1. [Upload getting started program](https://aka.ms/devkit/prod/getstarted/latest){:target="_blank"}  [Solution link](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/){:target="_blank"}
 2. Configure getting started
 	- => **Hold B, press Reset** - still holding B just press and release Reset still holding B,
@@ -78,11 +76,11 @@ style: |
     - set connection string from recent demo        
 	- restart device
 
-## III: Getting started
+## III: Getting started (part 2)
 5. In VS Code call *Command Palette* and call *Azure: Sign in*
 6. In Explorer at the bottom go to *Azure IoT Hub*
     - select *More actions...*
-    - *8*Select IoT Hub*
+    - *Select IoT Hub*
 7. Select Devices
     - select your device
     - *Start monitoring build-in endpoints*
