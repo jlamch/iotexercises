@@ -7,12 +7,12 @@ $width:1024px;  // Slide width, permanent in most cases
 $height:640px;  // Slide height, 640px for 16:10, 768px for 4:3
 $top:30px;      // Top padding above slide content, def 100px
 $left:96px;     // Left slide content padding, default 128
-$right:96px;    // Right slide content padding, default 96px
+$right:12px;    // Right slide content padding, default 96px
 $break:1180px;  // Window width for small thumbnails to appear
 $ratio:'16x10'; // Available options: '16x10' or '4x3'
 
 // Colors
-$color:rgb(99, 58, 133); //#52A2DF;
+$color:#633a85; //#52A2DF;
 
 // #52A2DF 1px
 $dot:'data:image/gif;base64,R0lGODdhAQABAPAAAFKi3wAAACH/C1hNUCBEYXRhWE1QAz94cAAsAAAAAAEAAQBAAgJEAQA7';
