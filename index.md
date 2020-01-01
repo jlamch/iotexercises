@@ -42,18 +42,7 @@ style: |
 ![](pictures/cover.jpg)
 
 
-## I: IoT DevKit
-
-1. Update firmware
-    - [Firmware link](https://bit.ly/2riKrLw){:target="_blank"}; [Firmware updating instruction](https://bit.ly/34Pug60){:target="_blank"}
-    - Drag and Drop downloaded packege in Windows Explorer
-2. Set WIFI connection 
-    - => **Hold B, press Reset** - still holding B just press and release Reset still holding B, **release B**
-3. Connect to you DevKit access point
-4. Configure WIFI at 192.168.0.1        
-3. See sensors reading => Press B
-
-## II: Create IoT Hub
+## I: Create IoT Hub
 1. Go to Azure Portal
 2. Create IoT Hub
     - preferable S1 tier
@@ -64,6 +53,17 @@ style: |
     - with symetric key
 4. Go to your device and open connection strings, we will need it later
     - IoT Devices -> your device -> Primary Connection String
+
+## II: IoT DevKit
+
+1. Update firmware
+    - [Firmware link](https://bit.ly/2riKrLw){:target="_blank"}; [Firmware updating instruction](https://bit.ly/34Pug60){:target="_blank"}
+    - Drag and Drop downloaded packege in Windows Explorer
+2. Set WIFI connection 
+    - => **Hold B, press Reset** - still holding B just press and release Reset still holding B, **release B**
+3. Connect to you DevKit access point
+4. Configure WIFI at 192.168.0.1        
+3. See sensors reading => Press B
 
 ## III: Getting started (part 1)
 1. [Upload getting started program](https://aka.ms/devkit/prod/getstarted/latest){:target="_blank"}  [Solution link](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/){:target="_blank"}
@@ -98,13 +98,30 @@ style: |
 
 ## V: IoT Central
 
-[Strona rozwiązania](https://aka.ms/iotcentral){:target="_blank"}
+1. Create your own IoT Central application on [Solution page](https://aka.ms/iotcentral){:target="_blank"}
+2. Upload [MXChipa current release](https://aka.ms/iotcentral-docs-MXChip-releases){:target="_blank"}
+13. Add new device 
+    - Devices > + > Real
+    - set Device Name
 
-[Obrazy oprogramowania dla MXChipa](https://aka.ms/iotcentral-docs-MXChip-releases){:target="_blank"}
+## V: IoT Central - configure device
+1. Open your device configuration
+    - Devices > your device 
+    - *Connect* in right upper corner - leave it open
+2. Configure device
+    - restart device
+    - **press A and B** right after restart at the same time
+    - connect to access point 
+    - open 192.168.0.1 and set all needed informations from point 2 and device display
+    - reboot device
+
+## V: IoT Central - what we can do
 
 1. Update settings: – Fan – Voltage 
 2. Call commands: - Echo - Countdown
-
+3. Shake
+4. Dashboard
+5. Measurements
 
 <!-- 
 ## Plain Text on Your Slides
