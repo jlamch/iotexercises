@@ -54,6 +54,24 @@ style: |
 4. Go to your device and open connection strings, we will need it later
     - IoT Devices -> your device -> Primary Connection String
 
+## I: VS Code for IoT Hub
+5. In VS Code call *Command Palette* and call *Azure: Sign in*
+6. In Explorer at the bottom go to *Azure IoT Hub*
+    - select *More actions...*
+    - *Select IoT Hub*
+7. Select Devices
+    - select your device
+    - *Start monitoring build-in endpoints*
+    - observe messages in Output window
+
+## I: VS Code Simulate device
+1. Select Devices
+    - select your device
+    - *Send D2C Messages*
+    - set your text and send
+2. While sending look into Output windows
+
+
 ## II: IoT DevKit
 
 1. Update firmware
@@ -65,7 +83,7 @@ style: |
 4. Configure WIFI at 192.168.0.1        
 3. See sensors reading => Press B
 
-## III: Getting started (part 1)
+## III: Getting started 
 1. [Upload getting started program](https://aka.ms/devkit/prod/getstarted/latest){:target="_blank"}  [Solution link](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/){:target="_blank"}
 2. Configure getting started
 	- => **Hold B, press Reset** - still holding B just press and release Reset still holding B,
@@ -75,16 +93,6 @@ style: |
     - set WIFI
     - set connection string from recent demo        
 	- restart device
-
-## III: Getting started (part 2)
-5. In VS Code call *Command Palette* and call *Azure: Sign in*
-6. In Explorer at the bottom go to *Azure IoT Hub*
-    - select *More actions...*
-    - *Select IoT Hub*
-7. Select Devices
-    - select your device
-    - *Start monitoring build-in endpoints*
-    - observe messages in Output window
 
 ## IV: Getting started - cold path
 1. Go to Azure portal
