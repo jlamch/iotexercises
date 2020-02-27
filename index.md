@@ -45,38 +45,38 @@ style: |
 ## I:🌸 Create IoT Hub
 
 1. Go to Azure Portal
-2. Create IoT Hub
+1. Create IoT Hub
     - preferable S1 tier
     - 1 unit
     - 4 partitions
-3. Create device
+1. Create device
     - IoT Devices -> New 
     - with symetric key
-4. Go to your device and open connection strings, we will need it later
+1. Go to your device and open connection strings, we will need it later
     - IoT Devices -> your device -> Primary Connection String
 
 ## I:🌸 VS Code for IoT Hub
 
-5. In VS Code call *Command Palette* and call *Azure: Sign in*
-6. In Explorer at the bottom go to *Azure IoT Hub*
+1. In VS Code call *Command Palette* and call *Azure: Sign in*
+1. In Explorer at the bottom go to *Azure IoT Hub*
     - select *More actions...*
     - *Select IoT Hub*
-7. Select Devices
+1. Select Devices
     - select your device
     - *Start monitoring build-in endpoints*
     - observe messages in Output window
 
 ## I:🌸 VS Code Simulate device
 
-8. Select Devices
+1. Select Devices
     - select your device
     - *Send D2C Messages*
     - set your text and send
-9. While sending look into Output windows
+1. While sending look into Output windows
 
 ## II:🥀 Arduino create project
 
-10. Create new project 
+1. Create new project 
     - Shift + Ctrl + P => Command Palette
     - Azure IoT Device Workbench: Create Project  
     - choose project name
@@ -85,7 +85,7 @@ style: |
 
 ## II:🥀 Arduino fun
 
-11. Go to [documentation](https://microsoft.github.io/azure-iot-developer-kit/docs/apis/hts221/) and choose what you want to code
+1. Go to [documentation](https://microsoft.github.io/azure-iot-developer-kit/docs/apis/hts221/) and choose what you want to code
     - LED [blog](https://www.programistkaikot.pl/2020/01/mxchip-zabawy-dioda.html)
     - Buttons [blog](https://www.programistkaikot.pl/2020/01/mxchip-obsuga-przyciskow-uzytkownika.html)
     - Oled [blog](https://www.programistkaikot.pl/2020/01/mxchip-oled-display.html)
@@ -94,23 +94,23 @@ style: |
 
 ## III:💮 IoT DevKit
 
-12. Update firmware
+1. Update firmware
     - [Firmware link](https://bit.ly/2riKrLw){:target="_blank"}; [Firmware updating instruction](https://bit.ly/34Pug60){:target="_blank"}
     - Drag and Drop downloaded packege in Windows Explorer
-13. Set WIFI connection - Access Point mode
+1. Set WIFI connection - Access Point mode
     - => **Hold B, press Reset** - still holding B just press and release Reset still holding B, **release B**
-14. Connect to you DevKit access point
-15. Configure WIFI at 192.168.0.1        
-16. See sensors reading => Press B
+1. Connect to you DevKit access point
+1. Configure WIFI at 192.168.0.1        
+1. See sensors reading => Press B
 
 ## IV:🌹 Getting started 
 
-17. [Upload getting started program](https://aka.ms/devkit/prod/getstarted/latest){:target="_blank"}  [Solution link](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/){:target="_blank"}
-18. Configure getting started
+1. [Upload getting started program](https://aka.ms/devkit/prod/getstarted/latest){:target="_blank"}  [Solution link](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/){:target="_blank"}
+1. Configure getting started
 	- => **Hold B, press Reset** - still holding B just press and release Reset still holding B,
     - => **release B**
-19. Connect to you DevKit access point
-20. Configure at 192.168.0.1
+1. Connect to you DevKit access point
+1. Configure at 192.168.0.1
     - set WIFI
     - set connection string from recent demo        
 	- restart device
@@ -127,4 +127,26 @@ style: |
     - body is encripted with Base64
 
 ## V:🌺 Hot Path
- not ready yet
+   TODO :) 
+ 
+
+
+## VI:🌵 IoT Central
+1. Create your own IoT Central application on [Solution page](https://aka.ms/iotcentral){:target="_blank"}
+1. Upload [MXChipa current release](https://aka.ms/iotcentral-docs-MXChip-releases){:target="_blank"}
+1. Add new device 
+    - Devices > + > Real
+    - set Device Name
+
+## VI:🌵 IoT Central - configure device
+1. Open your device configuration
+    - Devices > your device 
+    - *Connect* in right upper corner - leave it open
+1. Configure device
+    - restart device
+    - **press A and B** right after restart at the same time
+    - connect to access point 
+    - open 192.168.0.1 and set all needed informations from point 2 and device display
+    - reboot device
+
+
