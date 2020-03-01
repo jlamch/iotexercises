@@ -127,9 +127,11 @@ style: |
     - body is encripted with Base64
 
 ## V:🌺 Hot Path
-   TODO :) 
- 
-
+   - create Azure Function App
+   - add new function custom template, in-portal
+   - set trigger on IoT Hub, output on CosmosDB
+   - add return in function body (return input)
+   - in IoT Hub add message routing telemetry to build in events
 
 ## VI:🌵 IoT Central
 1. Create your own IoT Central application on [Solution page](https://aka.ms/iotcentral){:target="_blank"}
