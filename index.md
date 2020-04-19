@@ -151,4 +151,32 @@ style: |
     - open 192.168.0.1 and set all needed informations from point 2 and device display
     - reboot device
 
+## VII:🌻 Stream Analytics to Storage Account
+1. Create new container in existing Storage Account
+1. Create Stream Analytics Job
+1. Configure Stream Analytics Job
+    - set Storage Account as output
+    - set IoT Hub as input
+    - write Query - choose what you want to save 
+    - start job 
+
+## VII:🌻 Stream Analytics to SQL
+1. Create SQL Database
+    - create new database without any tables
+1. Create new SQL to Stream Analytic integration
+    - go to SQL Database
+    - in integration create new Stream Analytic Job
+    - set IoT Hub as input
+    - create satisfying query
+    - run test Query to create Sql schema
+    - run job
+
+## VII:🌻 Stream Analytics multiple queries 
+1. Combine both jobs quesies in one job
+    - add needed inputs
+    - put needed queries
+1. Add new query for max value for temperature
+    - use MAX(value)
+    - use tumbling or sliding window
+
 

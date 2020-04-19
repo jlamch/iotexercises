@@ -4,10 +4,12 @@
             "name": "Win32",
             "includePath": [
                 "C:\\Users\\JLamch\\AppData\\Local\\Arduino15\\packages\\AZ3166\\tools\\**",
-                "C:\\Users\\JLamch\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.2\\**"
+                "C:\\Users\\JLamch\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.2\\**",
+                "C:\\Users\\JLamch\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.5\\**"
             ],
             "forcedInclude": [
-                "C:\\Users\\JLamch\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.2\\cores\\arduino\\Arduino.h"
+                "C:\\Users\\JLamch\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.2\\cores\\arduino\\Arduino.h",
+                "C:\\Users\\JLamch\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.5\\cores\\arduino\\Arduino.h"
             ],
             "intelliSenseMode": "msvc-x64"
         }
